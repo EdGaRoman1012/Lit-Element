@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2091f9">
+<title>Aprende Web Components con Lit</title>
+<meta name="title" content="Aprende Web Components con Lit">
+<meta name="description" content="Una comunidad para aprender Lit Element y Web Components">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://EdGaRoman1012.github.io/">
+<meta property="og:title" content="Aprende Web Components con Lit">
+<meta property="og:description" content="Una comunidad para aprender Lit Element y Web Components">
+<meta property="og:image" content="https://EdGaRoman1012.github.io/images/css.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://EdGaRoman1012.github.io/">
+<meta property="twitter:title" content="Aprende Web Components con Lit">
+<meta property="twitter:description" content="Una comunidad para aprender Lit Element y Web Components">
+<meta property="twitter:image" content="https://EdGaRoman1012.github.io/images/css.jpg">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<body>
+<!-- Iniciar un componente
+    1. npm init -y
+    2. Instale el servidor de desarrollo web:
+
+npm i --save-dev @web/dev-server
+Luego agregue lo siguiente a la "scripts"sección en package.json:
+
+"start": "web-dev-server --node-resolve --open --watch"
+    -->
+    <main>
+    <wc-header></wc-header>
+    <wc-about></wc-about>
+    <wc-conocimiento></wc-conocimiento>
+    <wc-precio></wc-precio>
+    <wc-testimonio></wc-testimonio>
+    <wc-preguntas></wc-preguntas>
+    </main>
+
+    <wc-footer></wc-footer>
+
+    <script src="/componentes/main.js" type="module"></script>
+</body>
+</html>
